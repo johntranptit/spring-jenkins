@@ -15,6 +15,7 @@ public class SpringJenkinsApplication {
 
     @PostConstruct
     public void init() {
+        logger.info("dsfsdfsd");
         logger.info("Application started...");
     }
 
